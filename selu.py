@@ -11,6 +11,8 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException,
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
+
+
 # Constants
 AMAZON_LOGIN_URL = "https://amc.amazon.com/ap/signin?clientContext=133-8294563-2404362&openid.return_to=https%3A%2F%2Famc.amazon.com%2F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_amcentral_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
 BEST_SELLERS_URL = "https://www.amazon.com/Best-Sellers/zgbs"
